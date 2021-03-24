@@ -1,0 +1,189 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap');
+.login-block {
+    background: #0b0b0d;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* Color de fondo y degradado*/
+    background: linear-gradient(to bottom, #132743, #132743);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    float: left;
+    width: 100%;
+    padding: 50px 0;
+}
+
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #132743;
+}
+
+body {
+    background: #132743;
+    height: max-content;
+}
+
+.banner-sec {
+    background: url(../img/Fondo.png) no-repeat left bottom;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+.container {
+    background: #edc988;
+    border-radius: 10px;
+    box-shadow: 15px 20px 0px #132743;
+}
+
+.carousel-inner {
+    border-radius: 0 10px 10px 0;
+}
+
+.carousel-caption {
+    text-align: left;
+    left: 5%;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.login-sec .copy-text {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    position: absolute;
+    width: 80%;
+    bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+
+/*Color barra login */
+
+.login-sec h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #d7385e;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #d7385e;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #0b0b0d;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/*Baner o imagen de al lado*/
+
+.banner-text {
+    background-color: #132743c7;
+    width: 70%;
+    position: absolute;
+    bottom: 40px;
+    padding-left: 20px;
+}
+
+.banner-text h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.banner-text h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #FFF;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.banner-text p {
+    color: #fff;
+}
+
+.img-baner {
+    background: url(../img/Fondo.png) no-repeat left bottom;
+    background-size: cover;
+    min-height: 500px;
+    border-radius: 0 10px 10px 0;
+    padding: 0;
+}
+
+
+/* Botón personalizado ingresar y registro*/
+
+.btn-ingresar {
+    background-color: #d7385e;
+    border: 2px solid #d7385e;
+    color: #fff;
+}
+
+.btn-registro {
+    background-color: #132743;
+    border: 2px solid #132743;
+    text-decoration-color: #132743;
+    color: #fff;
+}
+
+
+/* Transparencia del boton ingresar y registro */
+
+.btn-ingresar:hover,
+.btn-ingresar:focus {
+    padding: 3%;
+    color: #fff;
+}
+
+.btn-registro:hover,
+.btn-registro:focus {
+    padding: 3%;
+    color: #fff;
+}
+
+a {
+    color: #132743;
+}
+
+.input_T {
+    background-color: #edc988;
+    border-radius: 5px;
+    border: 1px solid #edc988;
+    border: 1px solid #edc988;
+    border-bottom: 3px solid #132743;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+/*Bordes */
+
+.input_T:focus {
+    background-color: #edc988;
+    border-radius: 5px;
+    border: 1px solid #edc988;
+    border-bottom: 3px solid #132743;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 5px;
+}

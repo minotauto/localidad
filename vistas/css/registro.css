@@ -1,0 +1,122 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;700&display=swap');
+* {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #132743;
+}
+
+.login-block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 50px;
+}
+
+body {
+    width: 100%;
+    height: max-content;
+    background: #132743;
+}
+
+.container {
+    background: #edc988;
+    border-radius: 10px;
+}
+
+.login-sec {
+    padding: 50px 30px;
+    position: relative;
+}
+
+
+/*Color barra login */
+
+.login-sec h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #d7385e;
+}
+
+.login-sec h2:after {
+    content: " ";
+    width: 100px;
+    height: 5px;
+    background: #d7385e;
+    display: block;
+    margin-top: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.btn-login {
+    background: #0b0b0d;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/*Baner o imagen de al lado*/
+
+
+/* Botón personalizado ingresar y registro*/
+
+.btn-ingresar {
+    background-color: #d7385e;
+    border: 2px solid #d7385e;
+    color: #fff;
+}
+
+.btn-registro {
+    background-color: #132743;
+    border: 2px solid #132743;
+    text-decoration-color: #132743;
+    color: #fff;
+}
+
+
+/* Transparencia del boton ingresar y registro */
+
+.btn-ingresar:hover,
+.btn-ingresar:focus {
+    padding: 3%;
+    color: #fff;
+}
+
+.btn-registro:hover,
+.btn-registro:focus {
+    padding: 3%;
+    color: #fff;
+}
+
+a {
+    color: #132743;
+}
+
+.input_X {
+    background-color: #edc988;
+    border-radius: 5px;
+    border: 1px solid #edc988;
+    border: 1px solid #edc988;
+    border-bottom: 3px solid #132743;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+/*Bordes */
+
+.input_X:focus {
+    background-color: #edc988;
+    border-radius: 5px;
+    border: 1px solid #edc988;
+    border-bottom: 3px solid #132743;
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 5px;
+}
